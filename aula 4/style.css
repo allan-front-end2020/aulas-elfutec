@@ -11,9 +11,12 @@
   text-align: center;
 }
 
-.aula-5 {
-  min-height: 250px;
-  border: solid blue;
+.aula5 {
+  background: #f9f9f9;
+  border: solid 1px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .aula5-alinhamento-horizontal {
   text-align: center;
@@ -22,4 +25,18 @@
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+.aula-6 {
+  min-height: 250px;
+  border: solid red;
+  background-color: black;
+  border: solid 1px white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.caixas {
+  height: 250px;
+  background: red;
+  border: solid 1px black;
 }
