@@ -1,0 +1,25 @@
+.container {
+  background-color: black;
+  height: 400px;
+}
+
+.col {
+  background: #f9f9f9;
+  border: solid 1px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.aula-5 {
+  min-height: 250px;
+  border: solid blue;
+}
+.aula5-alinhamento-horizontal {
+  text-align: center;
+  background: #f9f9f9;
+  border: solid 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
