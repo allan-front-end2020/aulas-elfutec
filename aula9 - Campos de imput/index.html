@@ -10,76 +10,51 @@
     <title> Formulario com boodstrap</title>
 </head>
 <body>
-    <section>
+    
+<!-- Campo de selecao de cores -->
+  <div class="container">
       
-      <div class="container">
-        <h1>Formulario com boodstrap</h1>
-          <div class="col-6">
-           <form>
-              <label class="form-label">Nome</label>
-              <input class="form-control" type="text" Nome>
-
-              <label>E-mail</label>
-              <input class="form-control" type="email" E-mail> 
-
-              <label>Menssagem</label>
-              <textarea class="form-control" name="msg"></textarea>
-              <button type="button" class="btn btn-primary">Enviar</button>   
-          </form> 
-        </div>         
-      </div>
-    </section> 
-
-    <br> 
-
-    <div class="container">
-        <h1>Formulario com boodstrap</h1>
-          <div class="col-6"  class="mp-4">
-           <form>
-                <div class="mb-5">
-                 <input class="form-control" type="text" placeholder="Nome" Nome>
-                </div>
-                
-                <div class="mb-5">
-                 <input class="form-control" type="email" placeholder="E-mail" E-mail> 
-                </div>    
-                <div class="mb-2">
-                 <textarea class="form-control" name="msg" placeholder="Deixe sua Menssagem"></textarea>  
-                </div>  
-                <button type="button" class="btn btn-primary">Enviar</button>
-          </form> 
+        <div class="row mt-3">
+            <label class="form-label col-4" >Selecione uma cor</label>
+            <div class="col-8">
+            <input class="form-control form-control-color" type="color" name="color"> 
+           </div>  
         </div>
-    </div> 
-    <br>
-    <br>
-    <!-- tela de Login -->
-   <div class="container">
-    <div class="col-6">
-        <h1>Tela de login</h1>
-        <form >
-            <div class="mb-3">
-                <label class="form-label">E-mail</label>
-                <input class="form-control" type="text" nome="E-mail">
-               <div class="form-text">Forneca um email valido</div>
-           </div>
-           <div class="mb-3">
-                <label class="form-label">Senha</label>
-                <input  type="password" class="form-control">
-                <div class="form-text">Digite sua senha</div>
-           </div>
-           <div class="mb-3">
-                <input type="checkbox " class="form-check-input">
-                <label for="form-check-input"> lembra-me</label>
-           </div>
-           <div class="">
-                <button type="button" class="btn btn-primary">Entrar</button>     
-           </div>
-          
-        </form>
-
-    </div>
-       
-  </div>     
-
+<!-- Campo de selecao de cursos -->   
+      <div class="row mt-3">
+          <label class="forma-label   col-4 ">Selecione o seu curso</label>
+             <div class="col-8">
+               <input list="Lista de Curso"  class="form-control"type="text" placeholder="ENCONTE SEU CURSO">
+                <datalist id="Lista de Curso">
+                    <option value="html5"></option>
+                    <option value="css"></option>
+                    <option value="boodstrap"></option>
+                    <option value="js"></option>
+                </datalist>
+             </div>   
+      </div>  
+<!-- Campo de selecao de cursos pre definidos --> 
+     <div class="row mt-3">
+       <label class="form-label col-4">Selecione o seu curso</label>
+       <div class="col-8">
+         <select class="form-select">
+           <option value="html5">html5</option>
+           <option value="css">css</option>
+           <option value="boodstrap">boodstrap</option>
+           <option value="js">js</option>
+       </div>
+     </div>
+<!-- Campo de selecao de cursos pre definidos --> 
+ <!--Central de notificaoes  -->
+     <div class="row mt-3">
+      <label class="form-label col-4">Central de notoficoes</label>
+       <div class="col-8">
+          <dis1wqv class="form-check">
+            <input class="form-check-input" type="checkbox" name="notoficoes">
+            <label class="form-check-label"> Promocoes</label>
+          </div>
+       </div>        
+     </div> 
+</div>    
 </body>
 </html>
